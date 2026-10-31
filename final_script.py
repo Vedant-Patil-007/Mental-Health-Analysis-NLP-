@@ -8,8 +8,8 @@ import io
 from supabase import create_client
 
 # ---------------- Supabase Setup ----------------
-SUPABASE_URL = "https://byjxoefodiidjptzqivo.supabase.co"
-SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImJ5anhvZWZvZGlpZGpwdHpxaXZvIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc2MDg3NjQ5NCwiZXhwIjoyMDc2NDUyNDk0fQ.xlf1VlL40r1sVY_LDwrNBvhaQGpn9IKhaiWmddhDDFM"
+SUPABASE_URL = ""
+SUPABASE_KEY = ""
 supabase = create_client(SUPABASE_URL, SUPABASE_KEY)
 
 # ---------------- Page Config & UI ----------------
